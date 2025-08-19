@@ -1,2 +1,11 @@
-# CustomWM
+#CustomWM
 A Custom Window Manager Using the X11 Framework
+
+Process Breakdown:
+1. Creating a Window - Done
+2. Exiting the Window (i.e. Testing keypress) - Done
+3. Launching Execs - Done
+4. Creating tabs
+5. Iterating between tabs
+6. Drawing Graphs/Clock/TabName on the Root Window
+7. Controller Support
