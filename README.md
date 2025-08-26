@@ -9,4 +9,4 @@ Process Breakdown:
 5. Iterating between tabs - Done
 6. Drawing Graphs/Clock/TabName on the Root Window - Done
 7. Auto creating Windows - HWStats, Chrome(With Cronometer),Chrome - Done
-8. Controller Support
+8. Controller Support - Use case removed, use thread safe Xinit to pass a secondary thread with a callback
