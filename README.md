@@ -27,17 +27,6 @@ Process Breakdown:
 - Automatic window creation for tools like HWStats and Chrome (with Cronometer)  
 - Thread-safe Xinit support (for future controller/thread integrations)
 
-## Table of Contents
-
-1. [Features](#features)  
-2. [Quick Start](#quick-start)  
-3. [Installation](#installation)  
-4. [Configuration](#configuration)  
-5. [Usage](#usage)  
-6. [Contributing](#contributing)  
-7. [License](#license)  
-8. [Contact](#contact)
-
 ---
 
 ## Features
