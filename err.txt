@@ -1,0 +1,6 @@
+Starting window manager...
+MapRequest → 8388611
+Mouse button 1 on root 509
+Mouse button 1 on root 509
+MapRequest → 6291460
+MapRequest → 6291460

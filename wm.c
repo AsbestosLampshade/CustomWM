@@ -275,6 +275,13 @@ int main(void) {
       execlp("chromium", "chromium", "https://cronometer.com/#diary", NULL);
       _exit(1);
     }
+    // 🔥 Start dashboard system (Flask + Chromium)
+    if (fork() == 0) {
+        sleep(1);
+        execlp("/home/alfaugus/projects/expenses/start_dashboard.sh",
+   	   "start_dashboard.sh", NULL);
+        _exit(1);
+    }
     if (fork() == 0) {
       sleep(1); // Give time for the bar to be drawn
       execlp("/home/alfaugus/projects/custom_windows/hw_stats", "hw_stats", NULL);
