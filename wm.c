@@ -272,7 +272,7 @@ int main(void) {
     //Pre-setup
     if (fork() == 0) {
       sleep(1); // Give time for the bar to be drawn
-      execlp("chromium", "chromium", "https://cronometer.com/#diary", NULL);
+      execlp("chromium", "chromium", "http://localhost:3004", NULL);
       _exit(1);
     }
     // 🔥 Start dashboard system (Flask + Chromium)
